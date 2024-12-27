@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+  char x,a=20,b=10;
+  printf("enter an operator:\n");
+  scanf("%c",&x);
+  if(x=='+')
+  {
+    printf("%d\n",a+b);
+  }
+  else if(x=='-')
+  {
+    printf("%d\n",a-b);
+  }
+  else if(x=='*')
+  {
+    printf("%d\n",a*b);
+  }
+  else if(x=='%')
+  {
+    printf("%d\n",a%b);
+  }
+  else
+  {
+    printf("%d",a/b);
+  }
+  return 0;
+}
